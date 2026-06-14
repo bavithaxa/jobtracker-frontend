@@ -1,16 +1,107 @@
-# React + Vite
+# Job Tracker Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React based job application tracking system that helps users manage and monitor their job search process.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Add job applications
+* Update job applications
+* Delete job applications
+* Search jobs by company name
+* Track application status
+* Dashboard statistics
+* Responsive dark themed UI
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* Vite
+* Axios
+* CSS
 
-## Expanding the ESLint configuration
+## Application Status Options
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Applied
+* Interview
+* Offer
+* Rejected
+
+## Dashboard Analytics
+
+The application displays:
+
+* Total Applications
+* Applied Applications
+* Interview Applications
+* Offers Received
+* Rejected Applications
+
+## Screenshots
+
+Add screenshots here after deployment.
+
+## Running Locally
+
+1. Clone repository
+
+```bash
+git clone <repository-url>
+```
+
+2. Install dependencies
+
+```bash
+npm install
+```
+
+3. Start development server
+
+```bash
+npm run dev
+```
+
+4. Open browser
+
+```text
+http://localhost:5173
+```
+
+## Backend Connection
+
+The frontend communicates with the Spring Boot backend using Axios.
+
+Backend API URL:
+
+```text
+http://localhost:8080/jobs
+```
+
+## Project Features
+
+### CRUD Operations
+
+* Create applications
+* Read applications
+* Update applications
+* Delete applications
+
+### Search
+
+Search applications by company name.
+
+### Status Tracking
+
+Monitor progress through different hiring stages.
+
+### Analytics
+
+View real time application statistics.
+
+## Future Enhancements
+
+* User Authentication
+* Resume Upload Feature
+* Notes Section
+* Email Reminder System
+* Deployment on Cloud
+* Advanced Filtering and Sorting
