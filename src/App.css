@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+.container {
+  width: 90%;
+  max-width: 900px;
+  margin: 40px auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.form-card {
+  background: #1e293b;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+input {
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.add-btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.add-btn:hover {
+  background: #1d4ed8;
+}
+
+.job-card {
+  background: #1e293b;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.job-card h3 {
+  margin: 0;
+  color: #60a5fa;
+}
+
+.status {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.edit-btn {
+  background: orange;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  margin-right: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background: crimson;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  opacity: 0.9;
+}
+
+.delete-btn:hover {
+  opacity: 0.9;
+}
+
+.status {
+  display: inline-block;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.applied {
+  background: #2563eb;
+}
+
+.interview {
+  background: #f59e0b;
+}
+
+.offer {
+  background: #16a34a;
+}
+
+.rejected {
+  background: #dc2626;
+}
+
+select {
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.stat-card {
+  background: #1e293b;
+  padding: 20px;
+  min-width: 120px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.stat-card h3 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.stat-card p {
+  margin-top: 8px;
+}
+
+.applied-card {
+  border-left: 5px solid #2563eb;
+}
+
+.interview-card {
+  border-left: 5px solid #f59e0b;
+}
+
+.offer-card {
+  border-left: 5px solid #16a34a;
+}
+
+.rejected-card {
+  border-left: 5px solid #dc2626;
+}
